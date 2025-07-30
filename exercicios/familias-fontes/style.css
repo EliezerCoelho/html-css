@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap');
+@font-face {
+    font-family: gelo;
+    src: url("snow_blue/SNOW BLUE.otf") format(opentype), url(snow_blue/SNOW\ BLUE.ttf) format(truetype);
+}
+body {
+    font-family: sen, sans-serif;
+    background-color: #F3FEFE;
+}
+h1 {
+    font: 3em rosarivo, serif;
+    text-align: center;
+   color: black;
+}
+p {
+    font-size: 1.3em;
+}

@@ -1,0 +1,16 @@
+body {
+     background-color: #1D1D1D;
+}
+ h1 {
+    text-align: center;
+    color: white;
+ }
+div {
+      text-align: center;
+}
+main img {
+    width: 300px;
+}
+.h1 {
+    width: 100px;
+}

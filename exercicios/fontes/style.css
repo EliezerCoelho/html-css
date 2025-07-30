@@ -1,0 +1,23 @@
+body {
+    font-family: a;
+    /*
+    medidas absolutas
+    cm, mm, in, px, pc
+
+    medidas relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente = 1em
+    */
+    font-size: 1em;
+    font-weight: normal;
+    /* lighter, normal, bold, bolder*/
+}
+h1 { font: italic bolder 3em arial, helvetica, sans-serif;
+    /*shorthand
+    - font-style -> font-weight -> font-size -> font-family
+    
+    */
+}
+h2 {
+    font: italic 2em fantasy;
+}

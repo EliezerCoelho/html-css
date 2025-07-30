@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+    <link rel="shortcut icon" href="eli.ico" type="image/x-icon" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(80, 79, 79);
+        margin: 0;
+      }
+      header {
+        background-color: rgb(29, 26, 26);
+        padding: 10px;
+        margin: 0px;
+        background-attachment: fixed;
+      }
+      header > h1 {
+        color: white;
+        font-size: 3em;
+        font-family: Playfair Display SC, serif;
+        font-weight: normal;
+      }
+      nav {
+        background-color: rgb(43, 42, 42);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.767);
+        border-radius: 5px;
+      }
+      nav > a {
+        color: rgb(238, 238, 238);
+        text-decoration: none;
+        font-weight: bold;
+        padding: 0 100px 0 0;
+      }
+      nav > a:hover {
+        text-decoration: underline;
+      }
+      nav > a:active {
+        color: rgb(177, 177, 177);
+      }
+      main {
+        background-color: white;
+        padding: 10px;
+        margin: 0px auto;
+        box-shadow: 1px 1px 5px rgb(0, 0, 0);
+        border-radius: 0 10px;
+        max-width: 800px;
+      }
+      section {
+        padding: 5px;
+      }
+      article {
+        background-color: grey;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.692);
+        border-radius: 0 10px 0 0;
+        padding: 5px;
+      }
+      article > h2 {
+        font-family: DM Serif, serif;
+        font-size: 2em;
+      }
+      article > aside {
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.795);
+        border-radius: 10px;
+        color: white;
+      }
+      main > div {
+        background-color: grey;
+        border-radius: 0 6px;
+        position: relative;
+        padding-bottom: 52.5%;
+      }
+      div > iframe {
+        width: 90%;
+        border-radius: 10px;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        height: 90%;
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        padding: 2px;
+        margin: 100px 0 0 0;
+      }
+      footer > p {
+        margin: 0 auto;
+        width: 200px;
+        height: 20px;
+      }
+      footer > a {
+        color: rgb(238, 238, 238);
+        font-weight: bold;
+        padding: 0 100px 0 0;
+        margin: 0 0 0 50px;
+      }
+      footer > a:hover {
+        text-decoration: underline;
+      }
+      footer > a:active {
+        color: rgb(177, 177, 177);
+      }
+    </style>
+  </head>
+  <body>
+    <header id="topo">
+      <h1>Meu site.</h1>
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+        <article>
+          <h2>Os assuntos mais comentados no mundo.</h2>
+          <p>
+            Lorem, ipsum dolor sit ametconsectetur adipisicing elit.Iure dicta
+            sit sapiente culpa quaeratcorrupti dolor velit,consequatur molestias
+            nam facereexplicabo accusantiumrepellendus minima voluptates.
+            Inventore etimpedit possimus? Lorem ipsumdolor sit amet consectetur
+            adipisicingelit. Odio laudantium sedquibusdam nisi aliquid nulla,
+            illosimilique fuga dolorconsequatur, enim error suscipit
+            velitrepudiandae eligendidelectus? Architecto, ipsam exercitationem?
+            Loremipsum, dolor sit ametconsectetur adipisicing elit.
+            Temporibushic aut quibusdam. Veniamnatus delectus
+            aspernaturnecessitatibus providentneque ea, hic molestiae quis nisi
+            praesentium temporequod voluptatem quae ullam.Lorem ipsum dolor sit
+            ametconsectetur, adipisicingelit. Sed iste ab assumenda non.
+            Pariatur,doloremque a iure dignissimoscum amet tempore dolor
+            eiusperspiciatis assumenda quideleniti? Laudantium, eum dolores.
+          </p>
+          <aside>
+            <p>Artigo escrito por Eliezer.</p>
+          </aside>
+        </article>
+      </section>
+      <section id="noticias">
+        <article>
+          <h2>Notícia sobre o Brasil.</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure dicta
+            sit sapiente culpa quaerat corrupti dolor velit, consequatur
+            molestias nam facere explicabo accusantium repellendus minima
+            voluptates. Inventore et impedit possimus? Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Odio laudantium sed quibusdam
+            nisi aliquid nulla, illo similique fuga dolor consequatur, enim
+            error suscipit velit repudiandae eligendi delectus? Architecto,
+            ipsam exercitationem? Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Temporibus hic aut quibusdam. Veniam natus
+            delectus aspernatur necessitatibus provident neque ea, hic molestiae
+            quis nisi praesentium tempore quod voluptatem quae ullam. Lorem
+            ipsum dolor sit amet consectetur, adipisicing elit. Sed iste ab
+            assumenda non. Pariatur, doloremque a iure dignissimos cum amet
+            tempore dolor eius perspiciatis assumenda qui deleniti? Laudantium,
+            eum dolores.
+          </p>
+          <aside>
+            <p>Artigo escrito por Eliezer</p>
+          </aside>
+        </article>
+      </section>
+      <div>
+        <iframe width="600px" height="400px"
+          src="https://www.youtube.com/embed/-CPoDvZLQ6k?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s"
+          title="Modelo de Caixas na prática (parte 2) - @Curso em Vídeo HTML5 e CSS3"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </main>
+    <footer>
+      <a href="#topo">Topo da Página</a>
+      <p>Desenvolvido por Eliezer</p>
+    </footer>
+  </body>
+</html>
